@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<!-- Auther: Shorouk Abdelaziz  https://shorouk.dev -->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Socials</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: grid;
+      place-items: center;
+    }
+
+    .wrapper {
+      padding-top: 10px;
+      display: inline-flex;
+
+    }
+
+    .fill {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      color: #fff;
+      outline: 0;
+      cursor: pointer;
+      position: relative;
+      margin: 5px;
+      background-color: #4b4b4b;
+    }
+
+    .icon {
+      font-size: 1em;
+    }
+
+    .discord:hover{
+      background-color: #7289da;
+    }
+
+    .instagram:hover{
+      background: #f86ee1;
+    }
+
+    .tiktok:hover{
+      background-color: #ff0050;
+    }
+
+    .twitter:hover{
+      background-color: #26a7de;
+    }
+
+    .youtube:hover{
+      background-color: #FF0000;
+    }
+
+    .social {
+      position: relative;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .social:hover {
+      color: #fff;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <!-- Start discord Icon -->
+    <a href="https://discord.gg/UdeXjUYQWA" target="_blank">
+  <div id="discord" onclick="navigate(this.id)" class="fill discord">
+      <span class="icon"><i class="fab fa-discord"></i></span>
+    </div>
+      </a>
+    <!-- End discord Icon -->
+
+    
+    <!-- Start instagram Icon -->
+    <a href="https://instagram.com/efedestar?igshid=ZDdkNTZiNTM=" target="_blank">
+  <div id="instagram" onclick="navigate(this.id)" class="fill instagram">
+      <span class="icon"><i class="fab fa-instagram"></i></span>
+    </div>
+      </a>
+    <!-- End instagram Icon -->
+
+    
+    <!-- Start tiktok Icon -->
+    <a href="https://www.tiktok.com/@efedestar" target="_blank">
+  <div id="tiktok" onclick="navigate(this.id)" class="fill discord">
+       <span class="icon"><i class="fab fa-tiktok"></i></span>
+    </div>
+      </a>
+    <!-- End tiktok Icon -->
+
+    
+    <!-- Start twitch Icon -->
+    <a href="https://www.twitch.tv/efedestar" target="_blank">
+  <div id="twitch" onclick="navigate(this.id)" class="fill discord">
+      <span class="icon"><i class="fab fa-twitch"></i></span>
+    </div>
+    
+    </a>
+    <!-- End twitch Icon -->
+
+    
+    <!-- Start youtube Icon -->
+     <a href="https://www.youtube.com/channel/UCO13aCcFlJ1Ylge6rVTXDOg" target="_blank">
+  <div id="discord" onclick="navigate(this.id)" class="fill discord">
+      <span class="icon"><i class="fab fa-youtube"></i></span>
+    </div>
+    <!-- End youtube Icon -->
+
+ 
